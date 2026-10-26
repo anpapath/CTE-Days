@@ -1,0 +1,12 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.env
+
+# Kept locally, not published
+teacher/
+slides/
+build_notebooks.py
+notebooks/00_Lecture.ipynb
+notebooks/00_Lecture_Slides.ipynb
