@@ -1,5 +1,5 @@
 # 🤖 How Does AI Actually Work?
-A hands-on session on how large language models work: see how ChatGPT-style AIs process text, build your own RAG system and try to break it, then send an AI agent to investigate a data leak.
+A hands-on session on how large language models work: see how ChatGPT-style AIs process text, put together your own RAG system with your own documents and rules and try to break it, then send an AI agent to investigate a data leak and build it a new tool.
 
 ## 🚀 Start here
 Click **Open in Colab** next to a notebook and sign in with your Google account. Then click **File → Save a copy in Drive** so you have your own version to work in.
@@ -7,8 +7,8 @@ Click **Open in Colab** next to a notebook and sign in with your Google account.
 | | Notebook | Open | What you'll do |
 |---|---|---|---|
 | 🧠 | [Lecture demos](notebooks/00_Lecture_Demos.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anpapath/CTE-Days/blob/main/notebooks/00_Lecture_Demos.ipynb) | The live demos from the lecture: tokens, embeddings and cosine similarity, attention, and how a model predicts the next word |
-| 📚 | [Lab 1: AI Librarian](notebooks/01_Lab_RAG_AI_Librarian.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anpapath/CTE-Days/blob/main/notebooks/01_Lab_RAG_AI_Librarian.ipynb) | Pick a theme (Music, Film, Space or Cybersecurity), build an AI that answers from your own documents (RAG), then red-team it with poisoned documents and prompt injection |
-| 🕵️ | [Lab 2: Detective Bot](notebooks/02_Lab_Agent_Detective.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anpapath/CTE-Days/blob/main/notebooks/02_Lab_Agent_Detective.ipynb) | Give an AI agent tools through function calling and watch it solve "The Case of the Leaked Prototype" on its own, then try to hijack it |
+| 📚 | [Lab 1: AI Librarian](notebooks/01_Lab_RAG_AI_Librarian.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anpapath/CTE-Days/blob/main/notebooks/01_Lab_RAG_AI_Librarian.ipynb) | Pick a theme (Music, Film, Space or Cybersecurity), add a document of your own and write the AI's rules, so it answers from your library (RAG). Then red-team it with poisoned documents and prompt injection |
+| 🕵️ | [Lab 2: Detective Bot](notebooks/02_Lab_Agent_Detective.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anpapath/CTE-Days/blob/main/notebooks/02_Lab_Agent_Detective.ipynb) | Give an AI agent tools through function calling and watch it solve "The Case of the Leaked Prototype" on its own. Then build it a new tool and try to hijack it |
 
 ## 📖 What's inside
 - `notebooks/`: the Colab notebooks
